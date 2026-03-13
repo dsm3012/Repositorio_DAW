@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <producto>
+        <id_producto>12352</id_producto>
+        <nombre>destornillador</nombre>
+        <descripcion>es destornillante</descripcion>
+        <precio currency="euros">1.4</precio>
+        <categoria>bricolaje</categoria>
+        <disponibilidad>En stock</disponibilidad>
+        <image>./src/images/screw_driver.png</image>
+    </producto>
+        <producto>
+        <id_producto>45622</id_producto>
+        <nombre>sarten</nombre>
+        <descripcion>es de metal y polimero</descripcion>
+        <precio currency="euros">15</precio>
+        <categoria>cocina</categoria>
+        <disponibilidad>Out of stock</disponibilidad>
+        <image>./src/images/flying_pan.png</image>
+    </producto>
+        <producto>
+        <id_producto>654235</id_producto>
+        <nombre>Cartera</nombre>
+        <descripcion>Cuero de alta calidad</descripcion>
+        <precio currency="euros">5</precio>
+        <categoria>accesorios</categoria>
+        <disponibilidad>En stock</disponibilidad>
+        <image>./src/images/leather_wallet.png</image>
+    </producto>
+        <producto>
+        <id_producto>1233456</id_producto>
+        <nombre>Pendrive</nombre>
+        <descripcion>128GB 3.2</descripcion>
+        <precio currency="euros">12</precio>
+        <categoria>informatica</categoria>
+        <disponibilidad>Out of stock</disponibilidad>
+        <image>./src/images/usb_128.png</image>
+    </producto>
+        <producto>
+        <id_producto>99839</id_producto>
+        <nombre>Grip_holder</nombre>
+        <descripcion>Esencial para la fuerza de agarre</descripcion>
+        <precio currency="euros">3.4</precio>
+        <categoria>deporte</categoria>
+        <disponibilidad>En stock</disponibilidad>
+        <image>./src/images/grip_holder.png</image>
+    </producto>
+</productos>

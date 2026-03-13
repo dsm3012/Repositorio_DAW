@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro titulo="El principito" autor="no me lo se" ano="2001"></libro>
+    <libro titulo="El libros de los anillos de la tierra" autor="Nicolas Maquiavelo" ano="1543"></libro>
+    <libro titulo="Flores para Algernon" autor="Henry Keyes" ano="1997"></libro>
+</libros>
