@@ -10,14 +10,14 @@ Repositorio con material de Lenguaje de Marcas y Entornos de Desarrollo.
 - Santiago
 
 ## Estructura
-Entornos_de_Desarrollo
+- Entornos_de_Desarrollo
   - Apuntes
   - Ejercicios
   - Prácticas
-Lenguaje_de_Marcas
+- Lenguaje_de_Marcas
   - Apuntes
   - Ejercicios
   - Prácticas
-README.md
+- README.md
 
 ## Instrucciones de uso
