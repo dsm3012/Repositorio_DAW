@@ -1,1 +1,5 @@
-<
+<!ELEMENT autor (titulo,capitulo+)>
+<!ATTLIST autor libro CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT capitulo (#PCDATA)>
+<!ATTLIST capitulo numero NMTOKEN #REQUIRED>

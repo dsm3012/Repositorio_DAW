@@ -1,0 +1,11 @@
+<!ELEMENT tarjetavisita (apellido,nombre,profesion,direccion)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT profesion (#PCDATA)>
+<!ELEMENT direccion (numero,calle,codigopostal,poblacion)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT codigopostal (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+
+<!ENTITY cstrb "Calle de Strasburgo">

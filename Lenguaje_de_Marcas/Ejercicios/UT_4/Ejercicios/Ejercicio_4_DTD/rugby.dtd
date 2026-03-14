@@ -1,0 +1,14 @@
+<!ELEMENT temporada (jornada)+>
+<!ATTLIST temporada año NMTOKEN #REQUIRED>
+<!ELEMENT jornada (partido)>
+<!ATTLIST jornada numero NMTOKEN #REQUIRED>
+<!ELEMENT partido (fecha,estadio,local,visitante,resultado)>
+<!ATTLIST partido numero NMTOKEN #REQUIRED>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT estadio (#PCDATA)>
+<!ATTLIST estadio espectadores CDATA #REQUIRED>
+<!ELEMENT local (#PCDATA)>
+<!ELEMENT visitante (#PCDATA)>
+<!ELEMENT resultado EMPTY>
+<!ATTLIST resultado local CDATA #REQUIRED>
+<!ATTLIST resultado visitante CDATA #REQUIRED>
