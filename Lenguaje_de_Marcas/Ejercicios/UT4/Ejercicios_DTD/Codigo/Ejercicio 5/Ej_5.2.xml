@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE liga [
+  <!ELEMENT liga (partido*)>
+  <!ELEMENT partido (local, visitante)>
+  <!ATTLIST partido 
+    golesLocal CDATA #REQUIRED
+    golesVisitante CDATA #REQUIRED>
+  <!ELEMENT local (#PCDATA)>
+  <!ELEMENT visitante (#PCDATA)>
+]>
+<liga>
+  <partido golesLocal="4" golesVisitante="2">
+    <local>Water de Múnich</local>
+    <visitante>Esteaua es del grifo</visitante>
+  </partido>
+</liga>
