@@ -1,7 +1,8 @@
 # Repositorio_DAW
 
 ## Descripción
-Repositorio con material de Lenguaje de Marcas y Entornos de Desarrollo.
+Repositorio del material de Lenguaje de Marcas y Entornos de Desarrollo
+a lo largo del curso.
 
 ## Integrantes
 - David
@@ -21,3 +22,7 @@ Repositorio con material de Lenguaje de Marcas y Entornos de Desarrollo.
 - README.md
 
 ## Instrucciones de uso
+Al descargar el repositorio se recomienda su visualizacion mediante un IDE 
+como Vscode o NetBeans, que facilita la legibilidad del codigo y en ciertos
+casos puede ser necesario el uso de plugins o extensiones para comprobar la
+estructura o apariencia de los documentos en servidores locales.
