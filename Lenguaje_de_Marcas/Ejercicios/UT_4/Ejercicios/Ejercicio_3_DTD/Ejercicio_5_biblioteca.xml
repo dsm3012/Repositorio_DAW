@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+    <libro id="l1" formato="impreso" idioma="ingles">
+        <titulo>hola</titulo>
+        <autor>adios</autor>
+        <editorial>sm</editorial>
+        <anio>1929</anio>
+        <precio>10</precio>
+        <descripcion>hola hola</descripcion>
+        <imagen>%imagen;</imagen>
+    </libro>
+    <revista>
+        <titulo>alo</titulo>
+        <editorial>sm</editorial>
+        <anio>2026</anio>
+        <precio>25</precio>
+        <articulo>
+            <titulo>alo2</titulo>
+            <autor>adios2</autor>
+            <contenido>nada</contenido>
+        </articulo>
+    </revista>
+</biblioteca>
