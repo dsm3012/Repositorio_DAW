@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="facturas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="factura">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="fecha" type="xs:date"/>
+                            <xs:element name="cliente">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="direccion" type="xs:string"/>
+                                        <xs:element name="telefono" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="productos">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="producto" maxOccurs="unbounded">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="nombre" type="xs:string"/>
+                                                        <xs:element name="cantidad" type="xs:integer"/>
+                                                        <xs:element name="precio_unitario" type="xs:float"/>
+                                                        <xs:element name="total" type="xs:float"/>
+                                                    </xs:sequence>
+                                                    <xs:attribute name="id" type="xs:ID"></xs:attribute>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                            </xs:element>
+                            <xs:element name="total_factura" type="xs:float"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

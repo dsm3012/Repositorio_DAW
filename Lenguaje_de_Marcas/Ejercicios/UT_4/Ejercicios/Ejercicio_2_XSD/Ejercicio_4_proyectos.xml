@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proyectos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="proyectos.xsd">
+    <proyecto id="PR001">
+        <nombre>Desarrollo Web</nombre>
+        <fecha_inicio>2025-01-10</fecha_inicio>
+        <fecha_fin>2025-06-30</fecha_fin>
+        <presupuesto>50000.00</presupuesto>
+        <empleados>
+            <empleado id="E001">
+                <nombre>Alicia Torres</nombre>
+                <rol>Desarrolladora Frontend</rol>
+            </empleado>
+            <empleado id="E002">
+                <nombre>Ricardo Gómez</nombre>
+                <rol>Desarrollador Backend</rol>
+            </empleado>
+        </empleados>
+    </proyecto>
+</proyectos>
