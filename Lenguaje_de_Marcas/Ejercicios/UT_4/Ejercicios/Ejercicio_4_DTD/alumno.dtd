@@ -1,0 +1,11 @@
+<!ELEMENT alumnos (alumno)*>
+<!ELEMENT alumno (id_vecino,Nombre,Apellidos,Portal,Piso,CCC,Cargo?)>
+<!ELEMENT id_vecino (#PCDATA)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Apellidos (#PCDATA)>
+<!ELEMENT Portal EMPTY>
+<!ATTLIST Portal numero CDATA #REQUIRED>
+<!ELEMENT Piso (#PCDATA)>
+<!ATTLIST Piso Letra ID #REQUIRED>
+<!ELEMENT CCC (#PCDATA)>
+<!ELEMENT Cargo (#PCDATA)>

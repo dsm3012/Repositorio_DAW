@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<electrodomesticos>
+    <producto>
+        <nombre>Movil</nombre>
+        <descripcion>Se usa para llamar</descripcion>
+        <precio currency="euros">200</precio>
+        <caracteristicas>
+            <caracteristica nombre="RAM">8</caracteristica>
+            <caracteristica nombre="pulgadas">5.7"</caracteristica>
+        </caracteristicas>
+    </producto>
+    <producto>
+        <nombre>Portatil</nombre>
+        <descripcion>Muy portatil</descripcion>
+        <precio currency="euros">599</precio>
+        <caracteristicas>
+            <caracteristica nombre="RAM">16</caracteristica>
+            <caracteristica nombre="procesador">i5-12450h</caracteristica>
+        </caracteristicas>
+    </producto>
+</electrodomesticos>

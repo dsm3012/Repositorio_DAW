@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura>
+    <datos_emisor>
+        <nombre>Libreria Perez</nombre>
+        <cif>879798798</cif>
+        <telefono>838388882</telefono>
+    </datos_emisor>
+    <datos_cliente>
+        <nombre>Biblioteca Txantrea</nombre>
+        <cif>879798798</cif>
+        <telefono>838388882</telefono>
+    </datos_cliente>
+    <detalle_factura>
+        <cod_art>AW7</cod_art>
+        <tipo>Libro</tipo>
+        <descripcion>analitico web</descripcion>
+        <cantidad>1</cantidad>
+        <oferta>si</oferta>
+        <pvp>15</pvp>
+        <cod_art>AW7</cod_art>
+        <tipo>Libro</tipo>
+        <descripcion>analitico web</descripcion>
+        <cantidad>1</cantidad>
+        <oferta>si</oferta>
+        <pvp>15</pvp>
+        <importe>89</importe>
+    </detalle_factura>
+</factura>

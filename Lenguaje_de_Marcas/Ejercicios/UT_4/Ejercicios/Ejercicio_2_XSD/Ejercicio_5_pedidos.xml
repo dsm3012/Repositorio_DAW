@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pedidos.xsd">
+    <pedido id="PED001">
+        <cliente>
+            <nombre>Juan Martínez</nombre>
+            <email>juan.martinez@example.com</email>
+        </cliente>
+        <productos>
+            <producto id="P001">
+                <nombre>Tablet</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>250.00</precio_unitario>
+            </producto>
+            <producto id="P002">
+                <nombre>Ratón Inalámbrico</nombre>
+                <cantidad>2</cantidad>
+                <precio_unitario>20.00</precio_unitario>
+            </producto>
+        </productos>
+        <total>290.00</total>
+    </pedido>
+</pedidos>

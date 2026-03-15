@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tarjetavisita SYSTEM "tarjetavisita.dtd">
+<tarjetavisita>
+<apellido>Guevara</apellido>
+<nombre>Ernesto</nombre>
+<profesion>Doctor</profesion>
+<direccion>
+<numero>172</numero>
+<calle>&cstrb;</calle>
+<codigopostal>75455</codigopostal>
+<poblacion>Buenos Aires</poblacion>
+</direccion>
+</tarjetavisita>

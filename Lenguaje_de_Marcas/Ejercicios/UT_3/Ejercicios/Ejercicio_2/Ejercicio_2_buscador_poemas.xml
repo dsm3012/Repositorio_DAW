@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poemas>
+  <poema>
+    <titulo>La aurora de Nueva York</titulo>
+    <autor>
+      <nombre>Federico Garcia Lorca</nombre>
+      <movimiento>Generacion del 27</movimiento>
+      <fecha_nacimiento>1898</fecha_nacimiento>
+      <fecha_muerte>1936</fecha_muerte>
+    </autor>
+    <tematica>Modernidad y alienacion urbana</tematica>
+    <estilo>Surrealista</estilo>
+    <estrofa>
+      <linea>La aurora no tiene forma ni rostro</linea>
+      <linea>la ciudad despierta en un gemido de acero</linea>
+    </estrofa>
+  </poema>
+
+  <poema>
+    <titulo>Hijos de la ira</titulo>
+    <autor>
+      <nombre>Dasaso Alonso</nombre>
+      <movimiento>Poesia existencial</movimiento>
+      <fecha_nacimiento>1898</fecha_nacimiento>
+      <fecha_muerte>1990</fecha_muerte>
+    </autor>
+    <tematica>Existencia y angustia humana</tematica>
+    <estilo>Libre y expresionista</estilo>
+    <estrofa>
+      <linea>Clamo a ti Dios con voz de hombre solo</linea>
+      <linea>en mitad de una ciudad que no escucha</linea>
+    </estrofa>
+  </poema>
+
+  <poema>
+    <titulo>Cantico</titulo>
+    <autor>
+      <nombre>Jorge Guillen</nombre>
+      <movimiento>Generacion del 27</movimiento>
+      <fecha_nacimiento>1893</fecha_nacimiento>
+      <fecha_muerte>1984</fecha_muerte>
+    </autor>
+    <tematica>Optimismo y plenitud del ser</tematica>
+    <estilo>Puro y celebrativo</estilo>
+    <estrofa>
+      <linea>El mundo esta bien hecho</linea>
+      <linea>y yo celebro su orden luminoso</linea>
+    </estrofa>
+  </poema>
+
+  <poema>
+    <titulo>Espadas como labios</titulo>
+    <autor>
+      <nombre>Vicente Aleixandre</nombre>
+      <movimiento>Surrealismo</movimiento>
+      <fecha_nacimiento>1898</fecha_nacimiento>
+      <fecha_muerte>1984</fecha_muerte>
+    </autor>
+    <tematica>Amor deseo y destruccion</tematica>
+    <estilo>Metaforico y visionario</estilo>
+    <estrofa>
+      <linea>El amor es un rayo de luna entre ruinas</linea>
+      <linea>una herida que canta bajo la piel del tiempo</linea>
+    </estrofa>
+  </poema>
+
+  <poema>
+    <titulo>Don de la ebriedad</titulo>
+    <autor>
+      <nombre>Claudio Rodriguez</nombre>
+      <movimiento>Poesia de posguerra</movimiento>
+      <fecha_nacimiento>1934</fecha_nacimiento>
+      <fecha_muerte>1999</fecha_muerte>
+    </autor>
+    <tematica>Inspiracion y trascendencia</tematica>
+    <estilo>Mistico y simbolico</estilo>
+    <estrofa>
+      <linea>Viene la luz en vino derramada</linea>
+      <linea>y todo se hace canto y desvelo</linea>
+    </estrofa>
+  </poema>
+</poemas>

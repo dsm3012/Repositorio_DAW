@@ -1,0 +1,7 @@
+<!ELEMENT cine (peliculas,directores)>
+<!ELEMENT peliculas (pelicula)+>
+<!ELEMENT pelicula (#PCDATA)>
+<!ATTLIST pelicula codpel ID #REQUIRED>
+<!ELEMENT directores (director)+>
+<!ELEMENT director (#PCDATA)>
+<!ATTLIST director filmografia IDREFS #REQUIRED>
