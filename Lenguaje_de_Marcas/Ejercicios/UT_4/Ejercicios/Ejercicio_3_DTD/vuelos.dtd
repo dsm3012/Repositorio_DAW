@@ -1,0 +1,12 @@
+<!ELEMENT aeropuerto (nombre,vuelos,fecha)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT vuelos (vuelo)+>
+<!ELEMENT vuelo (codigo,diario,origen,destino,hora_salida,hora_llegada,estado)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT diario (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hora_salida (#PCDATA)>
+<!ELEMENT hora_llegada (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>

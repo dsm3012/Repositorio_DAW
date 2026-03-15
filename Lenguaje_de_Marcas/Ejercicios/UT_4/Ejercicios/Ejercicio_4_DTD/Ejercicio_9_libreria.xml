@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria SYSTEM "libreria.dtd">
+<libreria>
+<libros>
+<producto cat="S">
+<titulo>Number, the language of Science</titulo>
+<autor>Danzig</autor>
+<precio>5,95</precio>
+<cantidad>3</cantidad>
+</producto>
+<producto cat="P">
+<titulo>Escritos de Morrison</titulo>
+<autor>Christian Bourgois Editeur</autor>
+<precio>43</precio>
+<cantidad>5</cantidad>
+</producto>
+<producto cat="I">
+<titulo>WIFI, 6 soluciones para su empresa</titulo>
+<autor>Laurence Soyer</autor>
+<precio>NC</precio>
+<cantidad>15</cantidad>
+</producto>
+<producto cat="R">
+<titulo>¡A la cama!</titulo>
+<autor>David Baddiel</autor>
+<precio>7,50</precio>
+<cantidad>2</cantidad>
+</producto>
+</libros>
+<categoria desc="Las categorias">
+<categoria code="S" desc="Ciencia"/>
+<categoria code="P" desc="Poesía" nota="Edición Limitada"/>
+<categoria code="I" desc="Informática"/>
+<categoria code="D" desc="Derecho"/>
+<categoria code="R" desc="Novela"/>
+</categoria>
+</libreria>

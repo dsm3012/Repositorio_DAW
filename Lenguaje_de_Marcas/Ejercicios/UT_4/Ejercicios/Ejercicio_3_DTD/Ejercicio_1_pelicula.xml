@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine SYSTEM "pelicula.dtd">
+<cine>
+    <directores>
+        <director coddir="dir1">hola1</director>
+        <director coddir="dir2">hola2</director>
+    </directores>
+    <peliculas>
+        <pelicula director="dir1">adios1</pelicula>
+        <pelicula director="dir2">adios2</pelicula>
+    </peliculas>
+</cine>

@@ -1,0 +1,15 @@
+<!ELEMENT biblioteca (libro,usuario,prestamo)+>
+<!ELEMENT libro (isbn,titulo,autor)>
+<!ATTLIST libro cod ID #REQUIRED>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT usuario (nombre,apellido)>
+<!ATTLIST usuario matricula ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT prestamo (fechaIni,fechaFin)>
+<!ATTLIST prestamo libro IDREF #REQUIRED>
+<!ATTLIST prestamo usuario IDREF #REQUIRED>
+<!ELEMENT fechaIni (#PCDATA)>
+<!ELEMENT fechaFin (#PCDATA)>

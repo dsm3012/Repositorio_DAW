@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="facturas.xsd">
+    <factura id="F001">
+        <fecha>2025-05-10</fecha>
+        <cliente>
+            <nombre>Juan Pérez</nombre>
+            <direccion>Calle Falsa 123</direccion>
+            <telefono>123456789</telefono>
+        </cliente>
+        <productos>
+            <producto id="P001">
+                <nombre>Smartphone</nombre>
+                <cantidad>2</cantidad>
+                <precio_unitario>300.00</precio_unitario>
+                <total>600.00</total>
+            </producto>
+            <producto id="P002">
+                <nombre>Televisor</nombre>
+                <cantidad>1</cantidad>
+                <precio_unitario>450.00</precio_unitario>
+                <total>450.00</total>
+            </producto>
+        </productos>
+        <total_factura>1050.00</total_factura>
+    </factura>
+</facturas>

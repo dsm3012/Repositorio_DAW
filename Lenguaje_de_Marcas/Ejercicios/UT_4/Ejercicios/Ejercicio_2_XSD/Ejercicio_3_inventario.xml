@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="inventario_ropa.xsd">
+    <producto id="P001">
+        <nombre>Camisa</nombre>
+        <tamaño>L</tamaño>
+        <color>Azul</color>
+        <precio>25.99</precio>
+        <stock>150</stock>
+    </producto>
+    <producto id="P002">
+        <nombre>Pantalón</nombre>
+        <tamaño>M</tamaño>
+        <color>Negro</color>
+        <precio>39.99</precio>
+        <stock>80</stock>
+    </producto>
+</inventario>

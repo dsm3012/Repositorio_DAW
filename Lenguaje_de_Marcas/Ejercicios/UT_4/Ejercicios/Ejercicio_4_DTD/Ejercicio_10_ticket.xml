@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ticket SYSTEM "ticketCompra.dtd">
+<ticket código="t00037">
+<datos_ticket>
+<fecha>2014-05-01</fecha>
+<hora>12:35</hora>
+<precio_total moneda="euro">
+<cantidad_sin_iva>50.06</cantidad_sin_iva>
+<cantidad_sin_iva>68.56</cantidad_sin_iva>
+</precio_total>
+<forma_pago número="**********1234" tipo="Visa Clásica">
+Tarjeta
+</forma_pago>
+<cliente>Pedro Medario</cliente>
+</datos_ticket>
+</ticket>
