@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE temporada SYSTEM "rugby.dtd">
+<temporada año="2000">
+<jornada numero="1">
+<partido numero="1">
+<fecha>2000-02-02</fecha>
+<estadio espectadores="49000">Landsdown 
+Road</estadio>
+<local>Irlanda</local>
+<visitante>Inglaterra</visitante>
+<resultado local="17" visitante="6"/>
+</partido>
+</jornada>
+</temporada>

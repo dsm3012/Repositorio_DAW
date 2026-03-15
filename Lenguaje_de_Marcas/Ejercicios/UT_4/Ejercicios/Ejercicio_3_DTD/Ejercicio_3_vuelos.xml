@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aeropuerto SYSTEM "vuelos.dtd">
+<aeropuerto>
+    <nombre>Aeropuerto JFK</nombre>
+    <vuelos>
+        <vuelo>
+            <codigo>V23</codigo>
+            <diario>no</diario>
+            <origen>New York</origen>
+            <destino>Malaga</destino>
+            <hora_salida>1:30</hora_salida>
+            <hora_llegada>12:00</hora_llegada>
+            <estado>En proceso</estado>
+        </vuelo>
+    </vuelos>
+    <fecha>15/03/2026</fecha>
+</aeropuerto>

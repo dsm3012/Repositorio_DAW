@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="proyectos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="proyecto" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="fecha_inicio" type="xs:date"/>
+                            <xs:element name="fecha_fin" type="xs:date"/>
+                            <xs:element name="presupuesto" type="xs:float"/>
+                            <xs:element name="empleados">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="empleado" minOccurs="1" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre" type="xs:string"/>
+                                                    <xs:element name="rol" type="xs:string"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:ID"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
