@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE libro [
-  <!ELEMENT libro EMPTY>
-  <!ATTLIST libro autor CDATA #REQUIRED>
-  <!ATTLIST libro titulo CDATA #IMPLIED>
-]>
-<libro autor="Mario Vargas Llosa" titulo="La ciudad y los perros" />
